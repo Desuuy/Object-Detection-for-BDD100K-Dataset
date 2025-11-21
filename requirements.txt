@@ -1,0 +1,13 @@
+# Python 3.12.3  
+# CUDA Toolkit 12.8 
+
+torch==2.9.0
+ultralytics==8.3.223
+opencv-python==4.12.0   
+numpy==2.2.6     
+pandas==2.2.2
+matplotlib==3.10.7
+notebook==7.2.2
+pyyaml==6.0.2
+requests==2.32.5
+polars==1.35.1
