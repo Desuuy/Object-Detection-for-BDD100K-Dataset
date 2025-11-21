@@ -183,6 +183,7 @@ Install the correct NumPy version (CLI)
 
 ```
 # Restart your environment after installation.
+# Version numpy==1.26.4
 pip install -U "numpy<2" --force-reinstall
 ```
 
@@ -247,5 +248,6 @@ Each folder contains:
     organization={Springer}
 }
 ```
+
 
 
