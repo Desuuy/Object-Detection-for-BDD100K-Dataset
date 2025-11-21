@@ -1,0 +1,15 @@
+path: /data/bdd100k/BDD100k
+train: images/train
+val: images/val
+test: images/test
+names:
+- person
+- rider
+- car
+- bus
+- truck
+- bike
+- motor
+- traffic light
+- traffic sign
+- train
