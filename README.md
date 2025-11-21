@@ -174,7 +174,7 @@ run/
 
 # ⚙️ 4. Environment Setup
 
-### For RT-DETR, NumPy < 2.0 is required.
+### For RT-DETR you must install NumPy < 2.0 is required.
 
 Install the correct NumPy version (CLI)
 
@@ -244,3 +244,4 @@ Each folder contains:
     organization={Springer}
 }
 ```
+
