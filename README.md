@@ -119,6 +119,7 @@ Table of Hyperparameters
 - #### 4.1 Using CLI
 ##### YOLOv8
 ```
+bash
 yolo detect train 
     data=bdd100k.yaml 
     model=yolov8n.pt 
@@ -131,6 +132,7 @@ yolo detect train
 ```
 ##### YOLOv9
 ```
+bash
 yolo detect train 
     data=bdd100k.yaml 
     model=yolov9c.pt 
@@ -143,6 +145,7 @@ yolo detect train
 ```
 ##### RT-DERT
 ```
+bash
 yolo detect train 
     data=bdd100k.yaml 
     model=rtdetr-l.pt
@@ -244,4 +247,5 @@ Each folder contains:
     organization={Springer}
 }
 ```
+
 
