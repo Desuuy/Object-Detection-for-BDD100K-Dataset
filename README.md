@@ -2,14 +2,14 @@
 
 This repository provides a complete workflow for preprocessing, training, and evaluating YOLOv8, YOLOv9, and RT-DETR on the BDD100K dataset — a large-scale and diverse driving dataset widely used for autonomous driving research.
 
-# 📌 Dataset: BDD100K
+# Dataset: BDD100K
 
 BDD100K is one of the largest and most diverse driving datasets, containing 100,000 images collected across various weather, lighting, and city environments.
 
 Official Dataset Reference:
 - https://bair.berkeley.edu/blog/2018/05/30/bdd/
 
-## 📥 1. Downloading the Dataset
+## 1. Downloading the Dataset
 
 - Dataset Source 1: http://bdd-data.berkeley.edu/
 - Dataset Source 2: https://www.kaggle.com/datasets/solesensei/solesensei_bdd100k
@@ -20,7 +20,7 @@ Official Dataset Reference:
 2. Download the following: "100K Images" and "Labels"
 3. (Optional) Download Detection 2020 Labels for additional experiments.
 
-## 📁 Dataset Structure
+## Dataset Structure
 Your downloaded dataset should look like:
 ```bash
 bdd100k/
@@ -35,7 +35,7 @@ bdd100k/
  |    ├── bdd100k_labels_images_train.json
  │    ├── bdd100k_labels_images_val.json
 ```
-# 🛠 2. Preprocessing
+# 2. Preprocessing
 
 All preprocessing steps are included inside:
 
@@ -56,7 +56,7 @@ bdd100k/
  |    ├── train/ (.txt* 70,000)
  │    ├── valid/ (.txt* 10,000)
 ```
-# 🧠 3. Training Pipelines
+# 3. Training Pipelines
 For more details about the models, refer to the official Ultralytics documentation: https://docs.ultralytics.com/
 
 **The models used in this project are Model	Notebook:**
@@ -175,9 +175,9 @@ run/
  │    ├── .....
 ```
 
-# ⚙️ 4. Environment Setup
+# 4. Environment Setup
 
-### For RT-DETR you must install NumPy < 2.0 is required.
+### For RT-DETR, you must install NumPy < 2.0 is required.
 
 Install the correct NumPy version (CLI)
 
@@ -208,7 +208,7 @@ Each folder contains:
 
 4. Evaluation reports
 
-# 📌 6. Project Structure
+# 6. Project Structure
 ```
 ├── Data_Preprocessing_Yolo.ipynb
 ├── Data_Preprocessing_Visualization.ipynb
@@ -221,7 +221,7 @@ Each folder contains:
 ├── requirements.txt
 └── README.md
 ```
-# 🚀 7. Models Used
+# 7. Models Used
 
 - YOLOv8 (Ultralytics)
 
@@ -237,7 +237,7 @@ Each folder contains:
 
 - High accuracy for detection tasks
 
-# 📌 8. Citation
+# 8. Citation
 ```
 @inproceedings{xia2018predicting,
     title={Predicting driver attention in critical situations},
@@ -248,6 +248,7 @@ Each folder contains:
     organization={Springer}
 }
 ```
+
 
 
 
